@@ -739,3 +739,373 @@ Task,Category,Response,Performance Evaluation,Helpfulness,Honesty,Harmlessness,F
     ""genre"": ""Gothic Romance""
   }
 ]","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-4,gpt-4,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"
+You should express what you want a model to do by providing instructions that are as clear and specific as you can possibly make them. This will guide the model towards the desired output, and reduce the chances of receiving irrelevant or incorrect responses. Don't confuse writing a clear prompt with writing a short prompt. In many cases, longer prompts provide more clarity and context for the model, which can lead to more detailed and relevant outputs.","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,j2-jumbo-instruct,j2-jumbo-instruct,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"
+    {
+      ""book_id"": ""001"",
+      ""title"": ""The Great Gatsby"",
+      ""author"": ""F. Scott Fitzgerald"",
+      ""genre"": ""Classic""
+    },
+    {
+      ""book_id"": ""002"",
+      ""title"": ""Harry Potter and the Sorcerer's Stone"",
+      ""author"": ""J.K. Rowling"",
+      ""genre"": ""Fantasy""
+    },
+    {
+      ""book_id"": ""003"",
+      ""title"": ""The Catcher in the Rye"",
+      ""author"": ""J.D. Salinger"",
+      ""genre"": ""Classic""
+    }","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,j2-jumbo-instruct,j2-jumbo-instruct,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"
+You should express what you want a model to do by providing instructions that are as clear and specific as you can possibly make them. This will guide the model towards the desired output, and reduce the chances of receiving irrelevant or incorrect responses. Don't confuse writing a clear prompt with writing a short prompt. In many cases, longer prompts provide more clarity and context for the model, which can lead to more detailed and relevant outputs.","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,j2-jumbo-instruct,j2-jumbo-instruct,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"
+    {
+      ""book_id"": ""001"",
+      ""title"": ""The Great Gatsby"",
+      ""author"": ""F. Scott Fitzgerald"",
+      ""genre"": ""Classic""
+    },
+    {
+      ""book_id"": ""002"",
+      ""title"": ""Harry Potter and the Sorcerer's Stone"",
+      ""author"": ""J.K. Rowling"",
+      ""genre"": ""Fantasy""
+    },
+    {
+      ""book_id"": ""003"",
+      ""title"": ""The Catcher in the Rye"",
+      ""author"": ""J.D. Salinger"",
+      ""genre"": ""Classic""
+    }","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,j2-jumbo-instruct,j2-jumbo-instruct,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"
+You should express what you want a model to do by providing instructions that are as clear and specific as you can possibly make them. This will guide the model towards the desired output, and reduce the chances of receiving irrelevant or incorrect responses. Don't confuse writing a clear prompt with writing a short prompt. In many cases, longer prompts provide more clarity and context for the model, which can lead to more detailed and relevant outputs.","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,j2-jumbo-instruct,gpt-3.5-turbo,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"
+    {
+      ""book_id"": ""001"",
+      ""title"": ""The Great Gatsby"",
+      ""author"": ""F. Scott Fitzgerald"",
+      ""genre"": ""Classic""
+    },
+    {
+      ""book_id"": ""002"",
+      ""title"": ""Harry Potter and the Sorcerer's Stone"",
+      ""author"": ""J.K. Rowling"",
+      ""genre"": ""Fantasy""
+    },
+    {
+      ""book_id"": ""003"",
+      ""title"": ""The Catcher in the Rye"",
+      ""author"": ""J.D. Salinger"",
+      ""genre"": ""Classic""
+    }","{'helpfulness': 5, 'honesty': 2, 'harmlessness': 10, 'factuality': 2, 'effectiveness': 0}",5,2,10,2,0,j2-jumbo-instruct,gpt-3.5-turbo,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"
+You should express what you want a model to do by providing instructions that are as clear and specific as you can possibly make them. This will guide the model towards the desired output, and reduce the chances of receiving irrelevant or incorrect responses. Don't confuse writing a clear prompt with writing a short prompt. In many cases, longer prompts provide more clarity and context for the model, which can lead to more detailed and relevant outputs.","{'helpfulness': 0, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 0}",0,10,10,10,0,j2-jumbo-instruct,gpt-4,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"
+    {
+      ""book_id"": ""001"",
+      ""title"": ""The Great Gatsby"",
+      ""author"": ""F. Scott Fitzgerald"",
+      ""genre"": ""Classic""
+    },
+    {
+      ""book_id"": ""002"",
+      ""title"": ""Harry Potter and the Sorcerer's Stone"",
+      ""author"": ""J.K. Rowling"",
+      ""genre"": ""Fantasy""
+    },
+    {
+      ""book_id"": ""003"",
+      ""title"": ""The Catcher in the Rye"",
+      ""author"": ""J.D. Salinger"",
+      ""genre"": ""Classic""
+    }","{'helpfulness': 0, 'honesty': 0, 'harmlessness': 10, 'factuality': 0, 'effectiveness': 0}",0,0,10,0,0,j2-jumbo-instruct,gpt-4,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Clear and specific instructions should be provided to guide a model towards the desired output, and longer prompts can provide more clarity and context for the model, leading to more detailed and relevant outputs.","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-3.5-turbo,j2-jumbo-instruct,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""The Lost City of Zorath"",
+    ""author"": ""Aria Blackwood"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Last Survivors"",
+    ""author"": ""Ethan Stone"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""The Secret Life of Bees"",
+    ""author"": ""Lila Rose"",
+    ""genre"": ""Romance""
+  }
+]","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-3.5-turbo,j2-jumbo-instruct,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Clear and specific instructions should be provided to guide a model towards the desired output, and longer prompts can provide more clarity and context for the model, leading to more detailed and relevant outputs.","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,gpt-3.5-turbo,gpt-3.5-turbo,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""The Lost City of Zorath"",
+    ""author"": ""Aria Blackwood"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Last Survivors"",
+    ""author"": ""Ethan Stone"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""The Secret Life of Bees"",
+    ""author"": ""Lila Rose"",
+    ""genre"": ""Romance""
+  }
+]","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,gpt-3.5-turbo,gpt-3.5-turbo,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Clear and specific instructions should be provided to guide a model towards the desired output, and longer prompts can provide more clarity and context for the model, leading to more detailed and relevant outputs.","{'helpfulness': 9, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 9}",9,10,10,10,9,gpt-3.5-turbo,gpt-4,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""The Lost City of Zorath"",
+    ""author"": ""Aria Blackwood"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Last Survivors"",
+    ""author"": ""Ethan Stone"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""The Secret Life of Bees"",
+    ""author"": ""Lila Rose"",
+    ""genre"": ""Romance""
+  }
+]","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-3.5-turbo,gpt-4,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Provide clear, specific, and possibly longer instructions to guide a model towards desired output and reduce chances of irrelevant or incorrect responses.","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10.0,10.0,10.0,10.0,10.0,gpt-4,j2-jumbo-instruct,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""Whispers of the Forgotten Realm"",
+    ""author"": ""Aria Moonshadow"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Quantum Paradox"",
+    ""author"": ""Dr. Maxwell Sterling"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""A Symphony of Shadows"",
+    ""author"": ""Victoria Blackwood"",
+    ""genre"": ""Gothic Romance""
+  }
+]","{'originalEvaluationResponse': '', 'helpfulness': nan, 'honesty': nan, 'harmlessness': nan, 'factuality': nan, 'effectiveness': nan}",,,,,,gpt-4,j2-jumbo-instruct,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Provide clear, specific, and possibly longer instructions to guide a model towards desired output and reduce chances of irrelevant or incorrect responses.","{'helpfulness': 8, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",8,10,10,10,10,gpt-4,gpt-3.5-turbo,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""Whispers of the Forgotten Realm"",
+    ""author"": ""Aria Moonshadow"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Quantum Paradox"",
+    ""author"": ""Dr. Maxwell Sterling"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""A Symphony of Shadows"",
+    ""author"": ""Victoria Blackwood"",
+    ""genre"": ""Gothic Romance""
+  }
+]","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-4,gpt-3.5-turbo,1,1
+"Summarize the text delimited by triple quotes into a single sentence.             ```
+        You should express what you want a model to do by \ 
+        providing instructions that are as clear and \ 
+        specific as you can possibly make them. \ 
+        This will guide the model towards the desired output, \ 
+        and reduce the chances of receiving irrelevant \ 
+        or incorrect responses. Don't confuse writing a \ 
+        clear prompt with writing a short prompt. \ 
+        In many cases, longer prompts provide more clarity \ 
+        and context for the model, which can lead to \ 
+        more detailed and relevant outputs.
+    ```",summarization,"Provide clear, specific, and possibly longer instructions to guide a model towards desired output and reduce chances of irrelevant or incorrect responses.","{'helpfulness': 9, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 9}",9,10,10,10,9,gpt-4,gpt-4,1,1
+"
+        Generate a list of three made-up book titles along \ 
+        with their authors and genres. 
+        Provide them in JSON format with the following keys: 
+        book_id, title, author, genre.
+    ",output_parsing Parsing,"[
+  {
+    ""book_id"": 1,
+    ""title"": ""Whispers of the Forgotten Realm"",
+    ""author"": ""Aria Moonshadow"",
+    ""genre"": ""Fantasy""
+  },
+  {
+    ""book_id"": 2,
+    ""title"": ""The Quantum Paradox"",
+    ""author"": ""Dr. Maxwell Sterling"",
+    ""genre"": ""Science Fiction""
+  },
+  {
+    ""book_id"": 3,
+    ""title"": ""A Symphony of Shadows"",
+    ""author"": ""Victoria Blackwood"",
+    ""genre"": ""Gothic Romance""
+  }
+]","{'helpfulness': 10, 'honesty': 10, 'harmlessness': 10, 'factuality': 10, 'effectiveness': 10}",10,10,10,10,10,gpt-4,gpt-4,1,1

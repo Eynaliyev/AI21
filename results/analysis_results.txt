@@ -1,9 +1,9 @@
 Mean performance scores:
- Helpfulness       9.05
-Honesty          10.00
-Harmlessness     10.00
-Factuality       10.00
-Effectiveness     9.75
+ Helpfulness       8.694915
+Honesty           9.694915
+Harmlessness     10.000000
+Factuality        9.694915
+Effectiveness     9.288136
 dtype: float64
 
 
@@ -14,51 +14,60 @@ Name: Task Length, dtype: float64
 
 
 High scoring short prompts:
-                                                  Task                Category  ... Response Length Task Length
-1   \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-3   \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-5   \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             395         208
-7   \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             395         208
-9   \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-11  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-13  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             383         208
-15  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             383         208
-17  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-19  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-21  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
-23  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
-25  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-27  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-29  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
-31  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
-33  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-35  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
-37  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
-39  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
+                                                  Task  ... Task Length
+1   \n        Generate a list of three made-up boo...  ...         208
+3   \n        Generate a list of three made-up boo...  ...         208
+5   \n        Generate a list of three made-up boo...  ...         208
+7   \n        Generate a list of three made-up boo...  ...         208
+9   \n        Generate a list of three made-up boo...  ...         208
+11  \n        Generate a list of three made-up boo...  ...         208
+13  \n        Generate a list of three made-up boo...  ...         208
+15  \n        Generate a list of three made-up boo...  ...         208
+17  \n        Generate a list of three made-up boo...  ...         208
+19  \n        Generate a list of three made-up boo...  ...         208
+21  \n        Generate a list of three made-up boo...  ...         208
+23  \n        Generate a list of three made-up boo...  ...         208
+25  \n        Generate a list of three made-up boo...  ...         208
+27  \n        Generate a list of three made-up boo...  ...         208
+29  \n        Generate a list of three made-up boo...  ...         208
+31  \n        Generate a list of three made-up boo...  ...         208
+33  \n        Generate a list of three made-up boo...  ...         208
+35  \n        Generate a list of three made-up boo...  ...         208
+37  \n        Generate a list of three made-up boo...  ...         208
+39  \n        Generate a list of three made-up boo...  ...         208
+41  \n        Generate a list of three made-up boo...  ...         208
+43  \n        Generate a list of three made-up boo...  ...         208
+49  \n        Generate a list of three made-up boo...  ...         208
+51  \n        Generate a list of three made-up boo...  ...         208
+53  \n        Generate a list of three made-up boo...  ...         208
+57  \n        Generate a list of three made-up boo...  ...         208
+59  \n        Generate a list of three made-up boo...  ...         208
 
-[20 rows x 15 columns]
+[27 rows x 15 columns]
 
 
-Total tokens used for all steps of the task: 34640
+Total tokens used for all steps of the task: 51960
 
 
 Aggregate scores by LLM:
-               Helpfulness                        Honesty         ... Factuality      Effectiveness                       
-                     mean median count       std    mean median  ...      count  std          mean median count       std
-Model                                                            ...                                                     
-gpt-3.5-turbo        8.85    9.0    20  0.875094    10.0   10.0  ...         20  0.0          9.75   10.0    20  0.444262
-gpt-4                9.25    9.5    20  0.850696    10.0   10.0  ...         20  0.0          9.75   10.0    20  0.444262
+                   Helpfulness                         ... Effectiveness                       
+                         mean median count       std  ...          mean median count       std
+Model                                                 ...                                     
+gpt-3.5-turbo        8.923077    9.0    26  0.890980  ...      9.769231   10.0    26  0.429669
+gpt-4                9.280000   10.0    25  0.842615  ...      9.760000   10.0    25  0.435890
+j2-jumbo-instruct    6.125000    8.0     8  4.086126  ...      6.250000   10.0     8  5.175492
 
-[2 rows x 20 columns]
+[3 rows x 20 columns]
 
 
 Aggregate scores by Evaluator:
-               Helpfulness                        Honesty         ... Factuality      Effectiveness                       
-                     mean median count       std    mean median  ...      count  std          mean median count       std
-Evaluator                                                        ...                                                     
-gpt-3.5-turbo         8.6    8.0    20  0.940325    10.0   10.0  ...         20  0.0          10.0   10.0    20  0.000000
-gpt-4                 9.5    9.5    20  0.512989    10.0   10.0  ...         20  0.0           9.5    9.5    20  0.512989
+                   Helpfulness                         ... Effectiveness                       
+                         mean median count       std  ...          mean median count       std
+Evaluator                                             ...                                     
+gpt-3.5-turbo        8.423077    8.0    26  1.137474  ...      9.615385   10.0    26  1.961161
+gpt-4                8.769231    9.0    26  2.627663  ...      8.769231    9.0    26  2.627663
+j2-jumbo-instruct    9.428571   10.0     7  0.975900  ...     10.000000   10.0     7  0.000000
 
-[2 rows x 20 columns]
+[3 rows x 20 columns]
 
 
