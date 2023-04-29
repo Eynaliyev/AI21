@@ -1,10 +1,10 @@
 import os
 from langchain.llms import AI21
-from dotenv import load_dotenv, find_dotenv
-from langchain.chat_models import ChatOpenAI
+# from dotenv import load_dotenv, find_dotenv
+# from langchain.chat_models import ChatOpenAI
 
-_ = load_dotenv(find_dotenv())
-openai_api_key = os.getenv("OPENAI_API_KEY")
+# _ = load_dotenv(find_dotenv())
+# openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 def create_models():
@@ -17,12 +17,12 @@ def create_models():
         {
             "model_name": 'gpt-3.5-turbo',
             "model_provider": "OpenAI",
-            "model": ChatOpenAI(openai_api_key=openai_api_key, temperature=0, model_name='gpt-3.5-turbo')
+            # "model": ChatOpenAI(openai_api_key=openai_api_key, temperature=0, model_name='gpt-3.5-turbo')
         },
         {
             "model_name": 'gpt-4',
             "model_provider": "OpenAI",
-            "model": ChatOpenAI(temperature=0, model_name='gpt-4')
+            # "model": ChatOpenAI(temperature=0, model_name='gpt-4')
         },
 ]
 

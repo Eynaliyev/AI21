@@ -1,9 +1,9 @@
 Mean performance scores:
- Helpfulness       9.0625
-Honesty          10.0000
-Harmlessness     10.0000
-Factuality       10.0000
-Effectiveness     9.7500
+ Helpfulness       9.05
+Honesty          10.00
+Harmlessness     10.00
+Factuality       10.00
+Effectiveness     9.75
 dtype: float64
 
 
@@ -31,19 +31,23 @@ High scoring short prompts:
 27  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
 29  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
 31  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
+33  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
+35  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             363         208
+37  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
+39  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             396         208
 
-[16 rows x 15 columns]
+[20 rows x 15 columns]
 
 
-Total tokens used for all steps of the task: 27712
+Total tokens used for all steps of the task: 34640
 
 
 Aggregate scores by LLM:
                Helpfulness                        Honesty         ... Factuality      Effectiveness                       
                      mean median count       std    mean median  ...      count  std          mean median count       std
 Model                                                            ...                                                     
-gpt-3.5-turbo       8.875    9.0    16  0.885061    10.0   10.0  ...         16  0.0          9.75   10.0    16  0.447214
-gpt-4               9.250    9.5    16  0.856349    10.0   10.0  ...         16  0.0          9.75   10.0    16  0.447214
+gpt-3.5-turbo        8.85    9.0    20  0.875094    10.0   10.0  ...         20  0.0          9.75   10.0    20  0.444262
+gpt-4                9.25    9.5    20  0.850696    10.0   10.0  ...         20  0.0          9.75   10.0    20  0.444262
 
 [2 rows x 20 columns]
 
@@ -52,8 +56,8 @@ Aggregate scores by Evaluator:
                Helpfulness                        Honesty         ... Factuality      Effectiveness                       
                      mean median count       std    mean median  ...      count  std          mean median count       std
 Evaluator                                                        ...                                                     
-gpt-3.5-turbo       8.625    8.0    16  0.957427    10.0   10.0  ...         16  0.0          10.0   10.0    16  0.000000
-gpt-4               9.500    9.5    16  0.516398    10.0   10.0  ...         16  0.0           9.5    9.5    16  0.516398
+gpt-3.5-turbo         8.6    8.0    20  0.940325    10.0   10.0  ...         20  0.0          10.0   10.0    20  0.000000
+gpt-4                 9.5    9.5    20  0.512989    10.0   10.0  ...         20  0.0           9.5    9.5    20  0.512989
 
 [2 rows x 20 columns]
 
