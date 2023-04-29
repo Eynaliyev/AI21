@@ -1,5 +1,9 @@
+from joblib import Memory
 from get_openai_completion import get_completion as get_openai_completion
 from models import get_model_by_name
+
+# Set up caching
+memory = Memory("./cache", verbose=0)
 
 def get_completion(prompt, model_name="openai-gpt-3.5-turbo"):
     try:
@@ -18,3 +22,8 @@ def get_completion(prompt, model_name="openai-gpt-3.5-turbo"):
     except Exception as e:
         print(f"Error occurred while getting completion for model {model_name}: {e}")
         return None
+
+cached_get_completion = memory.cache(get_completion)
+
+# Replace the original get_completion function with the cached version
+get_completion = cached_get_completion

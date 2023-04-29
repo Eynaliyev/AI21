@@ -4,3 +4,4 @@ matplotlib==3.4.3
 langchain==0.0.152
 python-dotenv==1.0.0
 seaborn
+joblib
