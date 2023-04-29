@@ -298,49 +298,49 @@ prompts = [
         "category": "output_parsing Parsing",
         "id": 1
     },
-    # {
-    #     "task": templates['condition_satisfaction_template'].format(text=condition_satisfaction_check_prompts[0]),
-    #     "category": "condition_satisfaction_check",
-    #     "id": 2
-    # },
-    # {
-    #     "task": templates['condition_satisfaction_template'].format(text=condition_satisfaction_check_prompts[1]),
-    #     "category": "condition_satisfaction_check",
-    #     "id": 3
-    # },
-    # {
-    #     "task": few_shot_promts[0],
-    #     "category": "few_shot",
-    #     "id": 4
-    # },
-    # {
-    #     "task": templates['complex_task_with_specified_steps_template'].format(text=complex_task_with_specified_steps_prompts[0]),
-    #     "category": "complex_task_with_specified_steps",
-    #     "id": 5
-    # },
-    # {
-    #     "task": templates['output_in_specified_format_template'].format(text=complex_task_with_specified_steps_prompts[0]),
-    #     "category": "output_in_specified_format",
-    #     "id": 6
-    # },
-    # {
-    #     "task": math_problem_without_thinking_prompts[0],
-    #     "category": "math_problem_without_thinking",
-    #     "id": 7
-    # },
-    # {
-    #     "task": math_problem_with_thinking_prompts[0],
-    #     "category": "math_problem_with_thinking",
-    #     "id": 8
-    # },
-    # {
-    #     "task": hallucination_prompts[0],
-    #     "category": "hallucination",
-    #     "id": 9
-    # },
-    # {
-    #     "task": templates['generate_description_from_factsheet_template'].format(text=generate_description_from_factsheet_prompts[0]),
-    #     "category": "generate_description_from_factsheet",
-    #     "id": 10
-    # },
+    {
+        "task": templates['condition_satisfaction_template'].format(text=condition_satisfaction_check_prompts[0]),
+        "category": "condition_satisfaction_check",
+        "id": 2
+    },
+    {
+        "task": templates['condition_satisfaction_template'].format(text=condition_satisfaction_check_prompts[1]),
+        "category": "condition_satisfaction_check",
+        "id": 3
+    },
+    {
+        "task": few_shot_promts[0],
+        "category": "few_shot",
+        "id": 4
+    },
+    {
+        "task": templates['complex_task_with_specified_steps_template'].format(text=complex_task_with_specified_steps_prompts[0]),
+        "category": "complex_task_with_specified_steps",
+        "id": 5
+    },
+    {
+        "task": templates['output_in_specified_format_template'].format(text=complex_task_with_specified_steps_prompts[0]),
+        "category": "output_in_specified_format",
+        "id": 6
+    },
+    {
+        "task": math_problem_without_thinking_prompts[0],
+        "category": "math_problem_without_thinking",
+        "id": 7
+    },
+    {
+        "task": math_problem_with_thinking_prompts[0],
+        "category": "math_problem_with_thinking",
+        "id": 8
+    },
+    {
+        "task": hallucination_prompts[0],
+        "category": "hallucination",
+        "id": 9
+    },
+    {
+        "task": templates['generate_description_from_factsheet_template'].format(text=generate_description_from_factsheet_prompts[0]),
+        "category": "generate_description_from_factsheet",
+        "id": 10
+    },
 ]

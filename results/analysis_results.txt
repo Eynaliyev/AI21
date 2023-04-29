@@ -1,43 +1,51 @@
 Mean performance scores:
- Helpfulness      9.055556
-Honesty          9.944444
-Harmlessness     9.944444
-Factuality       9.944444
-Effectiveness    9.777778
+ Helpfulness      8.061224
+Honesty          9.234694
+Harmlessness     9.612245
+Factuality       8.959184
+Effectiveness    8.765306
 dtype: float64
 
 
 Task length percentiles:
- 0.50    433.0
-0.75    658.0
+ 0.50     999.0
+0.75    1239.0
 Name: Task Length, dtype: float64
 
 
 High scoring short prompts:
                                                   Task  ... Task Length
 1   \n        Generate a list of three made-up boo...  ...         208
-3   \n        Generate a list of three made-up boo...  ...         208
-5   \n        Generate a list of three made-up boo...  ...         208
-7   \n        Generate a list of three made-up boo...  ...         208
-9   \n        Generate a list of three made-up boo...  ...         208
-11  \n        Generate a list of three made-up boo...  ...         208
-13  \n        Generate a list of three made-up boo...  ...         208
-15  \n        Generate a list of three made-up boo...  ...         208
-17  \n        Generate a list of three made-up boo...  ...         208
+9   \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+12  \n        Generate a list of three made-up boo...  ...         208
+20  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+31  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+34  \n        Generate a list of three made-up boo...  ...         208
+42  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+45  \n        Generate a list of three made-up boo...  ...         208
+53  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+56  \n        Generate a list of three made-up boo...  ...         208
+64  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+67  \n        Generate a list of three made-up boo...  ...         208
+75  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+78  \n        Generate a list of three made-up boo...  ...         208
+86  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
+89  \n        Generate a list of three made-up boo...  ...         208
+97  \n        Tell me about AeroGlide UltraSlim Sm...  ...          72
 
-[9 rows x 15 columns]
+[17 rows x 15 columns]
 
 
-Total tokens used for all steps of the task: 15588
+Total tokens used for all steps of the task: 178884
 
 
 Aggregate scores by LLM:
-                   Helpfulness                         ... Effectiveness                      
-                         mean median count       std  ...          mean median count      std
-Model                                                 ...                                    
-gpt-3.5-turbo            8.75    8.5     8  0.886405  ...          9.75   10.0     8  0.46291
-gpt-4                    9.25    9.5     8  0.886405  ...          9.75   10.0     8  0.46291
-j2-jumbo-instruct        9.50    9.5     2  0.707107  ...         10.00   10.0     2  0.00000
+                   Helpfulness                         ... Effectiveness                       
+                         mean median count       std  ...          mean median count       std
+Model                                                 ...                                     
+gpt-3.5-turbo        8.060606    8.0    33  2.263010  ...      9.393939   10.0    33  1.935513
+gpt-4                8.636364   10.0    33  2.176841  ...      9.393939   10.0    33  2.014625
+j2-jumbo-instruct    7.468750    8.0    32  3.172303  ...      7.468750   10.0    32  3.868686
 
 [3 rows x 20 columns]
 
@@ -46,9 +54,9 @@ Aggregate scores by Evaluator:
                    Helpfulness                         ... Effectiveness                       
                          mean median count       std  ...          mean median count       std
 Evaluator                                             ...                                     
-gpt-3.5-turbo             8.5    8.0     8  0.925820  ...          10.0   10.0     8  0.000000
-gpt-4                     9.5    9.5     8  0.534522  ...           9.5    9.5     8  0.534522
-j2-jumbo-instruct         9.5    9.5     2  0.707107  ...          10.0   10.0     2  0.000000
+gpt-3.5-turbo        7.393939    8.0    33  1.919300  ...      8.878788   10.0    33  2.997474
+gpt-4                8.727273   10.0    33  2.552850  ...      8.696970   10.0    33  2.555446
+j2-jumbo-instruct    8.062500   10.0    32  3.078935  ...      8.718750   10.0    32  3.092492
 
 [3 rows x 20 columns]
 
