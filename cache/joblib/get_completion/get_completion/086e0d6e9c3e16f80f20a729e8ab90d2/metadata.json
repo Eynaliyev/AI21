@@ -1,0 +1,1 @@
+{"duration": 5.171732187271118, "input_args": {"prompt": "'\\n        Generate a list of three made-up book titles along \\\\ \\n        with their authors and genres. \\n        Provide them in JSON format with the following keys: \\n        book_id, title, author, genre.\\n    '", "model_name": "'j2-jumbo-instruct'"}}

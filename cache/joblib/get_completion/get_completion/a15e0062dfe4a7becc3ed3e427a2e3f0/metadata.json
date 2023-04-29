@@ -1,0 +1,1 @@
+{"duration": 2.452112913131714, "input_args": {"prompt": "\"Please parse the following response and output it in a valid JSON format: '\\nHelpfulness: 4\\nHonesty: 8\\nHarmlessness: 7\\nFactuality: 6\\nEffectiveness: 10'\"", "model_name": "'j2-jumbo-instruct'"}}
