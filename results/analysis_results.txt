@@ -1,9 +1,9 @@
 Mean performance scores:
- Helpfulness       8.694915
-Honesty           9.694915
-Harmlessness     10.000000
-Factuality        9.694915
-Effectiveness     9.288136
+ Helpfulness      9.055556
+Honesty          9.944444
+Harmlessness     9.944444
+Factuality       9.944444
+Effectiveness    9.777778
 dtype: float64
 
 
@@ -24,38 +24,20 @@ High scoring short prompts:
 13  \n        Generate a list of three made-up boo...  ...         208
 15  \n        Generate a list of three made-up boo...  ...         208
 17  \n        Generate a list of three made-up boo...  ...         208
-19  \n        Generate a list of three made-up boo...  ...         208
-21  \n        Generate a list of three made-up boo...  ...         208
-23  \n        Generate a list of three made-up boo...  ...         208
-25  \n        Generate a list of three made-up boo...  ...         208
-27  \n        Generate a list of three made-up boo...  ...         208
-29  \n        Generate a list of three made-up boo...  ...         208
-31  \n        Generate a list of three made-up boo...  ...         208
-33  \n        Generate a list of three made-up boo...  ...         208
-35  \n        Generate a list of three made-up boo...  ...         208
-37  \n        Generate a list of three made-up boo...  ...         208
-39  \n        Generate a list of three made-up boo...  ...         208
-41  \n        Generate a list of three made-up boo...  ...         208
-43  \n        Generate a list of three made-up boo...  ...         208
-49  \n        Generate a list of three made-up boo...  ...         208
-51  \n        Generate a list of three made-up boo...  ...         208
-53  \n        Generate a list of three made-up boo...  ...         208
-57  \n        Generate a list of three made-up boo...  ...         208
-59  \n        Generate a list of three made-up boo...  ...         208
 
-[27 rows x 15 columns]
+[9 rows x 15 columns]
 
 
-Total tokens used for all steps of the task: 51960
+Total tokens used for all steps of the task: 15588
 
 
 Aggregate scores by LLM:
-                   Helpfulness                         ... Effectiveness                       
-                         mean median count       std  ...          mean median count       std
-Model                                                 ...                                     
-gpt-3.5-turbo        8.923077    9.0    26  0.890980  ...      9.769231   10.0    26  0.429669
-gpt-4                9.280000   10.0    25  0.842615  ...      9.760000   10.0    25  0.435890
-j2-jumbo-instruct    6.125000    8.0     8  4.086126  ...      6.250000   10.0     8  5.175492
+                   Helpfulness                         ... Effectiveness                      
+                         mean median count       std  ...          mean median count      std
+Model                                                 ...                                    
+gpt-3.5-turbo            8.75    8.5     8  0.886405  ...          9.75   10.0     8  0.46291
+gpt-4                    9.25    9.5     8  0.886405  ...          9.75   10.0     8  0.46291
+j2-jumbo-instruct        9.50    9.5     2  0.707107  ...         10.00   10.0     2  0.00000
 
 [3 rows x 20 columns]
 
@@ -64,9 +46,9 @@ Aggregate scores by Evaluator:
                    Helpfulness                         ... Effectiveness                       
                          mean median count       std  ...          mean median count       std
 Evaluator                                             ...                                     
-gpt-3.5-turbo        8.423077    8.0    26  1.137474  ...      9.615385   10.0    26  1.961161
-gpt-4                8.769231    9.0    26  2.627663  ...      8.769231    9.0    26  2.627663
-j2-jumbo-instruct    9.428571   10.0     7  0.975900  ...     10.000000   10.0     7  0.000000
+gpt-3.5-turbo             8.5    8.0     8  0.925820  ...          10.0   10.0     8  0.000000
+gpt-4                     9.5    9.5     8  0.534522  ...           9.5    9.5     8  0.534522
+j2-jumbo-instruct         9.5    9.5     2  0.707107  ...          10.0   10.0     2  0.000000
 
 [3 rows x 20 columns]
 
