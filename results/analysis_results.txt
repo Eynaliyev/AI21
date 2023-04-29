@@ -1,0 +1,43 @@
+Mean performance scores:
+ Helpfulness       9.5
+Honesty          10.0
+Harmlessness     10.0
+Factuality       10.0
+Effectiveness     9.5
+dtype: float64
+
+
+Task length percentiles:
+ 0.50    433.0
+0.75    545.5
+Name: Task Length, dtype: float64
+
+
+High scoring short prompts:
+                                                 Task                Category  ... Response Length Task Length
+1  \n        Generate a list of three made-up boo...  output_parsing Parsing  ...             383         208
+
+[1 rows x 15 columns]
+
+
+Total tokens used for all steps of the task: 1732
+
+
+Aggregate scores by LLM:
+       Helpfulness                        Honesty         ... Factuality      Effectiveness                       
+             mean median count       std    mean median  ...      count  std          mean median count       std
+Model                                                    ...                                                     
+gpt-4         9.5    9.5     2  0.707107    10.0   10.0  ...          2  0.0           9.5    9.5     2  0.707107
+
+[1 rows x 20 columns]
+
+
+Aggregate scores by Evaluator:
+           Helpfulness                        Honesty         ... Factuality      Effectiveness                       
+                 mean median count       std    mean median  ...      count  std          mean median count       std
+Evaluator                                                    ...                                                     
+gpt-4             9.5    9.5     2  0.707107    10.0   10.0  ...          2  0.0           9.5    9.5     2  0.707107
+
+[1 rows x 20 columns]
+
+
